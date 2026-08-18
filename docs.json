@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Gatherly",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#059669",
+    "light": "#34d399",
+    "dark": "#047857"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,20 +18,31 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart",
+          "attend-your-first-event"
+        ]
+      },
+      {
+        "group": "Hosting events",
+        "pages": [
+          "hosting/create-an-event",
+          "hosting/public-and-private-events"
+        ]
+      },
+      {
+        "group": "Attending events",
+        "pages": []
+      },
+      {
+        "group": "Help",
+        "pages": []
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -74,5 +85,6 @@
   },
   "background": {
     "decoration": "grid"
-  }
+  },
+  "description": "Help center for Gatherly — create events, register as a guest, and manage everything from tickets to check-in."
 }
