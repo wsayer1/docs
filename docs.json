@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Gatherly",
   "colors": {
-    "primary": "#059669",
-    "light": "#34d399",
-    "dark": "#047857"
+    "primary": "#ACD039",
+    "light": "#FFFDE1",
+    "dark": "#3A3929"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -48,8 +48,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/Gatherly.png",
+    "dark": "/images/gatherlydark.png"
   },
   "navbar": {
     "links": [
@@ -87,7 +87,14 @@
     "family": "Inter"
   },
   "background": {
-    "decoration": "grid"
+    "decoration": "grid",
+    "color": {
+      "light": "#FFFEF3",
+      "dark": "#151511"
+    }
   },
-  "description": "Help center for Gatherly — create events, register as a guest, and manage everything from tickets to check-in."
+  "description": "Help center for Gatherly — create events, register as a guest, and manage everything from tickets to check-in.",
+  "icons": {
+    "library": "lucide"
+  }
 }
