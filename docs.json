@@ -39,11 +39,18 @@
       },
       {
         "group": "Attending events",
-        "pages": []
+        "pages": [
+          "attending/register-and-cancel",
+          "attending/my-tickets",
+          "attending/online-events"
+        ]
       },
       {
         "group": "Help",
-        "pages": []
+        "pages": [
+          "help/accounts",
+          "help/faq"
+        ]
       }
     ]
   },
