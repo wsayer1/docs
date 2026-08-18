@@ -31,7 +31,10 @@
         "group": "Hosting events",
         "pages": [
           "hosting/create-an-event",
-          "hosting/public-and-private-events"
+          "hosting/public-and-private-events",
+          "hosting/capacity-and-waitlist",
+          "hosting/manage-your-event",
+          "hosting/edit-or-cancel"
         ]
       },
       {
